@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project Selene Meme</title>
+    <meta name="description" content="Project Selene Meme — orbit reports, news, and streams" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <div class="brand">
+          <div class="brand-mark">☾</div>
+          <div>
+            <div class="brand-title">Project Selene Meme</div>
+            <div class="brand-subtitle">Zodiac Network Miniapp</div>
+          </div>
+        </div>
+        <div class="lunar-badge" title="LUNAR meme coin badge">
+          <span class="badge-icon">🌙</span>
+          <span class="badge-label">+250</span>
+          <span class="badge-token">$LUNAR</span>
+        </div>
+      </header>
+
+      <nav class="tabs">
+        <button class="tab active" data-tab="orbit">Orbit Report</button>
+        <button class="tab" data-tab="news">News</button>
+        <button class="tab" data-tab="streams">Streams</button>
+      </nav>
+
+      <main class="content">
+        <section class="panel active" id="tab-orbit">
+          <div class="panel-header">
+            <h2>Orbit Report</h2>
+            <span class="pill">Live</span>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Lunar Phase</h3>
+              <p>Waxing gibbous. Momentum rising across Selene nodes.</p>
+              <div class="meta">Updated 2m ago</div>
+            </article>
+            <article class="card">
+              <h3>Orbit Score</h3>
+              <p>Stability index at <strong>82</strong> with moderate volatility.</p>
+              <div class="meta">Cycle 04 · Sector A</div>
+            </article>
+            <article class="card">
+              <h3>Pulse Signals</h3>
+              <p>3 new signals detected. Review in next dispatch.</p>
+              <div class="meta">Queued for analysis</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel" id="tab-news">
+          <div class="panel-header">
+            <h2>News</h2>
+            <span class="pill neutral">Updates</span>
+          </div>
+          <div class="news-list">
+            <div class="news-item">
+              <div class="news-title">Selene Miniapp launch prep</div>
+              <div class="news-meta">Today · 4:20 UTC</div>
+            </div>
+            <div class="news-item">
+              <div class="news-title">LUNAR meme badge rollout</div>
+              <div class="news-meta">Today · 2:05 UTC</div>
+            </div>
+            <div class="news-item">
+              <div class="news-title">Orbit report automation draft</div>
+              <div class="news-meta">Yesterday · 18:40 UTC</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="tab-streams">
+          <div class="panel-header">
+            <h2>Streams</h2>
+            <span class="pill neutral">Placeholder</span>
+          </div>
+          <div class="placeholder">
+            <p>Streams will appear here soon.</p>
+            <small>We’ll wire live broadcasts in a later iteration.</small>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
